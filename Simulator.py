@@ -22,3 +22,13 @@ class Simulator:
   def get_output(self):
     """Get the output of the Simulator (the measurment used for the PID loop)."""
     raise NotImplementedError
+
+  def step(self, dt: float):
+    """Takes a step in time for the Simulator. 
+
+    Arguments:
+      dt {float} -- The small step in time. 
+    """
+    raise NotImplementedError
+
+  
