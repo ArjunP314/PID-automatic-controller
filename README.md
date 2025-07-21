@@ -209,7 +209,3 @@ The gradient is computed using central differences:
 - Python 3.6+
 - NumPy
 - Matplotlib
-
-## License
-
-This project is open source and available under the MIT License.
